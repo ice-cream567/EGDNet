@@ -1,11 +1,27 @@
 # EGDNet
-Event-guided image motion deblurring network
+Event-guided image motion deblurring network.
 ## Sythetic Dataset
 This synthetic dataset is generated from high-resolution sharp images of GoPro dataset and v2e. And the process of generating the synthetic dataset is described in detailed in our paper.
 
-Downloads are available via Baidu Net Disk.You can download the data here:[dataset](https://pan.baidu.com/s/1nZBNk2XTahkIEVQ7Mv-PKQ?pwd=gw6v) (password：gw6v) 
+Downloads are available via Baidu Net Disk.You can download the data here:[dataset](https://pan.baidu.com/s/1nZBNk2XTahkIEVQ7Mv-PKQ?pwd=gw6v) (password：gw6v) .
 ## Run
-You can download our pre-trained weights here:[save_model](https://pan.baidu.com/s/1FuFvJ4HysOOJEzJRzpkduQ?pwd=sl8r)(password：sl8r) 
+You can download our pre-trained weights here:[save_model](https://pan.baidu.com/s/1FuFvJ4HysOOJEzJRzpkduQ?pwd=sl8r)(password：sl8r) .
+
+After downloading the dataset and weights, move them accordingly so that the directory structure looks like this:
+
+```
+<project root>
+ |-- dataset
+        |-- < dataset files >
+ |-- save_weight
+        |-- < save_weight >
+ |-- test.py
+ |-- dataset.py
+ |-- main.py
+ |-- ...
+```
+
+
 - Run reconstruction:
 
   ```pyhton
