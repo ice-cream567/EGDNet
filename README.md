@@ -2,7 +2,7 @@
 Event-guided image motion deblurring network
 
 ## Run
-You can download our pre-trained weights here:[save_model](链接：https://pan.baidu.com/s/1FuFvJ4HysOOJEzJRzpkduQ?pwd=sl8r)
+You can download our pre-trained weights here:[save_model](https://pan.baidu.com/s/1FuFvJ4HysOOJEzJRzpkduQ?pwd=sl8r)
 - Run reconstruction:
 
   ```pyhton
